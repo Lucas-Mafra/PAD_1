@@ -23,8 +23,12 @@ class MainActivity : AppCompatActivity() {
             {
                 Toast.makeText(this, "Você é maior de idade", Toast.LENGTH_LONG).show()
             }
+            else {
+                Toast.makeText(this, "Você é menor de idade", Toast.LENGTH_LONG).show()
+            }
+            }
         }
 
 
     }
-}
+
